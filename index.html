@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <section class="main_sec">
+        <section class="container">
+            <nav class="navbar navbar-expand-sm">
+                <a class="navbar-brand" href="#"><img src="/img/logo.png" id="logo" /></a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section class="sec2 pt-5 container">
+            <div class="d-sm-flex justify-content-between">
+                <div class="align-self-center text text-center text-sm-start mx-auto mx-sm-0">
+                    <h2>IPHONE 13 PRO MAX</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+                    </p>
+                    <button>All Products</button>
+                </div>
+                <div class="img mx-auto mx-sm-0">
+                    <img src="/img/0.png" id="main_img" />
+                </div>
+            </div>
+        </section>
+        <section class="sec3 pt-5 container">
+            <div class="d-flex justify-content-center">
+                <img onclick="phones(this.src); colors('#000')" src="/img/0.png" />
+                <img onclick="phones(this.src); colors('#247ec8')" src="/img/1.png" />
+                <img onclick="phones(this.src); colors('#1e1e1e')" src="/img/2.png" />
+                <img onclick="phones(this.src); colors('#c79b53')" src="/img/3.png" />
+                <img onclick="phones(this.src); colors('#c82525')" src="/img/4.png" />
+            </div>
+        </section>
+    </section>
+</body>
+<script src="/js/main.js"></script>
+
+</html>
